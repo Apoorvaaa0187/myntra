@@ -1,0 +1,238 @@
+  body {
+    font-family: Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: rgba(254, 238, 241, 255);
+  }
+  .header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    background-color: white;
+  }
+
+  .header div ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+  }
+  
+  .categories {
+    margin-left: 50px;
+    float: left;
+    width: 37%;
+
+  }
+  .header div img {
+    width: 51px;
+    margin-left: 60px;
+  }
+  .header div ul li a {
+    padding: 28px 17px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #282c3f;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  img {
+    display: block;
+  }
+  
+  #loginbox {
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+  }
+  #loginbox img {
+    display: flex;
+    width: 100%;
+    height: 184px;
+  }
+  .loginheader {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px 0;
+    color:#43444a;
+    padding-top: 30px;
+  }
+  .smallheader {
+    font-size: 16px;
+    font-weight: 400;
+    color: #535766;
+  }
+
+  #parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  #login input {
+    margin-bottom: 5%;
+    width: 100%;
+    height: 35px;
+  }
+  .continue {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto;
+    color: white;
+    font-weight: 500;
+    background-color: #ff3f6c;
+    cursor: pointer;
+    border: none;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .continuing{
+    padding-left: 17px;
+  }
+  .loginbody {
+    width: 80%;
+    margin: auto;
+  }
+    p{
+      font-size: 11px;
+    }
+  p span {
+    color: #ff3f6c;
+    cursor: pointer;
+  }
+  *{
+    margin: 0;
+    padding:0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f1eeee;
+    background-color: #ffffff;
+}
+.myntra_logo{
+    height: 50px;
+    cursor: pointer;
+}
+.logo_container{
+    margin-left: 4%;
+}
+.action_bar{
+    margin-right: 4%;
+}
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 25px 0;
+   
+}
+.nav_bar a{
+    font-size: 11px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+    padding: 25px 0;
+   
+}
+.studio{
+    padding-bottom:1px;
+}
+
+.nav_bar a:hover{
+    border-bottom: 2px solid #f54e77;
+    padding: 25px 0;
+}
+
+.nav_bar a sup{
+    font-size: 8px;
+    color: #FF3f6c;
+}
+
+.search_bar {
+   height: 40px; 
+   min-width: 100px;
+   display: flex;
+   align-items: center; 
+   padding-left: 15px;
+}
+
+.search_icon{
+height: 25px;
+box-sizing: content-box;
+background-color:#f5f5f5;
+color: #282c3f;
+font-weight: 300;
+border-radius:4px 0 0 4px;
+outline: #f1eeee;
+}
+
+.search_input{
+color: #040404;;
+height: 25px;
+padding:1%;
+border: 0;
+border-radius:0 4px 4px 0 ;
+}
+
+.search_input:hover{
+    outline: 2px solid #f1eeee;
+    transition: outline-color 0.3s ease;
+}
+.search_input:focus{
+outline: solid #f1eeee ;
+}
+.search_input:not(:focus){
+    outline: #f1eeee;
+}
+
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+    padding-left: 90px;
+    color: #282c3f;
+}
+.action_container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 10px;
+    align-items: center;
+    padding-top: 9px;
+    margin: 10px;
+}
+
+.action_name{
+font-size: 9px;
+font-weight: 700;
+font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+color: black;
+}
+
+.help{
+  color: #ff3f6c;
+  cursor: pointer;
+  font-size: 11px;
+}
+.trouble{
+  margin:10px;
+  font-size:11px;
+}
+.whole{
+ padding-left: 60px;
+}
+

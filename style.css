@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f1eeee;
+
+}
+.myntra_logo{
+    height: 50px;
+    cursor: pointer;
+}
+.logo_container{
+    margin-left: 4%;
+}
+.action_bar{
+    margin-right: 4%;
+}
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 25px 0;
+}
+.nav_bar a{
+    font-size: 11px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+    padding: 25px 0;
+}
+.studio{
+    padding-bottom:1px;
+}
+
+.nav_bar a:hover{
+    border-bottom: 2px solid #f54e77;
+    padding: 25px 0;
+}
+
+.nav_bar a sup{
+    font-size: 8px;
+    color: #FF3f6c;
+}
+
+.search_bar {
+   height: 40px; 
+   min-width: 100px;
+   display: flex;
+   align-items: center; 
+   padding-left: 15px;
+}
+
+.search_icon{
+height: 25px;
+box-sizing: content-box;
+background-color:#f5f5f5;
+color: #282c3f;
+font-weight: 300;
+border-radius:4px 0 0 4px;
+outline: #f1eeee;
+}
+
+.search_input{
+color: #040404;;
+height: 25px;
+padding:1%;
+border: 0;
+border-radius:0 4px 4px 0 ;
+}
+
+.search_input:hover{
+    outline: 2px solid #f1eeee;
+    transition: outline-color 0.3s ease;
+}
+.search_input:focus{
+outline: solid #f1eeee ;
+}
+.search_input:not(:focus){
+    outline: #f1eeee;
+}
+
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+    padding-left: 90px;
+    color: #282c3f;
+    font-weight: 700;
+}
+.action_container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 10px;
+    align-items: center;
+    padding-top: 9px;
+    margin: 10px;
+   
+}
+
+.action_name{
+font-size: 9px;
+font-weight: 700;
+font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+color: black;
+}
+
+.banner_container{
+    position:relative;
+    width: 100%; 
+    background-attachment: fixed;
+}
+
+.banner{
+    width: auto;
+   padding-top:30px;
+   height: 0px;
+ padding-left: 10px;
+   }
+   .banners{
+       padding-left: 510px;
+   }
+ .coupon{
+    padding-left: 60px;
+ }
+ .left{
+    width: 200px;
+    height: 0px;
+    padding-left: 2px;
+
+ }
+ .right{
+    padding-left: 510px;
+ }
+
+.bottom{
+    width: 200px;
+    height: 0px;
+    padding-left: 110px;
+}
+.himalaya{
+   padding-top: 80px;
+   padding-left: 120px;
+}
+
+.offer_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:150px;
+}
+
+.section_header {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.2em;
+    margin-top:50px;
+    max-height: 2em;
+    font-weight: 700;
+    padding-left: 80px;
+    justify-content: center;
+}
+.sale_item{
+    height: 340px;
+    padding-left: 20px;
+    justify-content:center;
+}
+.sales_item{
+height: 330px;
+margin: 10px 0px;
+}
+.discount{
+    padding-left: 125px;
+}
+.offers_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2px;
+}
+.footer_container{
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+.footer_column h3 {
+    padding: 15px 60px 6px 1px;
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 12px;
+}
+.footer_column a {
+    text-decoration: none;
+    color: #696b79;
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+.copyright {
+    color: #94969f;
+  padding-left: 339px;
+}
+.store{
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.content-heading{
+    color: black;
+    font-weight: 600;
+    letter-spacing: normal;
+    padding:15px 40px 3px 5px;
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .para-content{
+    margin-top: 25px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: #696b79;
+    font-size: 15px;
+    padding-bottom: 5px;
+    letter-spacing: .3px;
+    line-height: 1.8;
+  }
+   .other-info-heading{
+    margin-top: 30px;
+    font-weight: 600;
+    color: black;
+    font-size: 12px;
+    color:#696b79;
+    font-weight: 700;
+  }
+  .other-info-para-content{
+    margin-top: 8px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    color: #696b79;
+  }
+  .image-button{
+            border: none;             
+            padding: 0;              
+            margin: 0;               
+            background: none;         
+            cursor: pointer;
+  }
+  .transparent{
+    border: none;             
+            padding: 0;              
+            margin: 0;               
+            background: none;         
+            cursor: pointer; 
+  }
+  
+  .wishlists a{
+    text-decoration: none;
+  }
